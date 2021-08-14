@@ -144,21 +144,19 @@ main{
 }
 .main__currency--table .currency__table--title{
     margin-bottom: 15px;
-    margin-left: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    text-align: left;
+    text-align: center;
 }
 .main__commissions--table .commissions__table--title{
     margin-bottom: 15px;
-    margin-left: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--secondary-blue);
-    text-align: left;
+    text-align: center;
 }
 .currency__table--container, .commissions__table--container{
     width: 90%;
@@ -176,7 +174,7 @@ main{
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--gray);
+    color: #757575;
     background-color: var(--just-white);
 }
 .currency__table--container .table__top--left, .commissions__table--container .table__top--left{
@@ -276,7 +274,7 @@ main{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #cccaca;
 }
 .product__detail--card{
     width: 90%;
@@ -340,13 +338,13 @@ main{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #808080;
+    color: #cccaca;
 }
 .bitcoin__img--container{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/img/bitcoingirl2x.jpg');
+    background-image: url('./assets/img/bitcoingirl.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -488,4 +486,8 @@ footer .left ul{
 .left a{
     text-decoration: none;
     color: var(--just-white);
+}
+.right img{
+    width: 90px;
+    height: 90px;
 }
